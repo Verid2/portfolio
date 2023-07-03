@@ -1,0 +1,110 @@
+.todoContainer {
+    position: fixed;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    top: 250px;
+    left: 35%;
+    overflow-y: auto;
+  }
+
+  .todoContainer h1 {
+    margin:  5px;
+    text-align: center;
+    color: black;
+    font-size: 2em;
+  }
+
+  .todoForm {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .todoInput {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: black;
+  }
+
+  .todoButton {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .todoList {
+    list-style: none;
+    padding: 0;
+    color: black;
+  }
+
+  .todoItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .todoItem button {
+    padding: 2px 5px;
+    background-color: #dc3545;
+    color:black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .finishedContainer {
+    margin-top: 20px;
+  }
+  
+  .finishedContainer h2 {
+    margin-top: 0;
+    text-align: center;
+    color: black;
+  }
+  
+  .finishedList {
+    list-style: none;
+    padding: 0;
+    color: black;
+  }
+  
+  .finishedItem {
+    padding: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #070707;
+    border-radius: 3px;
+    margin-bottom: 5px;
+  }
+
+  .description{
+    background-color: white;
+    width: 600px;
+    margin: 10px;
+    border-radius: 10px;
+    color: black;
+  }
+
+  .description h1 {
+    font-size: 2em;
+    margin: 10px;
+  }
+
+  .description p {
+    margin-left: 5px;
+    padding: 5px;
+  }

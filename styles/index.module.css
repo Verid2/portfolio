@@ -1,0 +1,77 @@
+.title {
+    position: fixed;
+    align-items: center;
+    top: 75px;
+    left: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    color: burlywood;
+  }
+  
+  .titlepicture {
+    position: fixed;
+    top: 50px;
+    right: 100px;
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .introductioncontainer {
+    position: fixed;
+    top: 300px;
+    left: 20px;
+    width: 600px;
+    height: 400px;
+    background-color: rgb(95, 81, 122);
+    border-radius: 20px;
+  }
+  
+  .introductioncontainer h1 {
+    margin: 10px;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .introductioncontainer p {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  .skillscontainer {
+    position: fixed;
+    width: 600px;
+    height: 400px;
+    top: 300px;
+    right: 20px;
+    background-color: rgb(95, 81, 122);
+    border-radius: 20px;
+  }
+  
+  .skillscontainer h1 {
+    margin: 10px;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .skillscontainer li {
+    margin-left: 10px;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  /* Media Query for smaller screens */
+  @media (max-width: 1300px) {
+    .title,
+    .titlepicture,
+    .introductioncontainer,
+    .skillscontainer {
+      position: static;
+      width: auto;
+      height: auto;
+      top: auto;
+      right: auto;
+      left: auto;
+    }
+  }
+  

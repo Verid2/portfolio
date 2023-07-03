@@ -1,0 +1,55 @@
+.top {
+    position: fixed;
+    top: 75px;
+}
+
+.top h1 {
+    position: fixed;
+    right: 50%;
+    font-size: 3em;
+}
+
+.top p {
+    position: fixed;
+    top: 160px;
+    left: 20px;
+}
+
+.projectscontainer {
+    position: fixed;
+    width: 80%;
+    height: 400px;
+    background-color: black;
+    top: 500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+  
+  .rectangles {
+    display: flex;
+  }
+  
+  .rectangle {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 20px;
+  }
+
+  .rectangle p {
+    margin: 10px;
+    font-size: large;
+  }
+
+  .projectscontainer{
+    color: black;
+  }
+  
+  
+  
+  
