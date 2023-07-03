@@ -13,9 +13,9 @@ return (
     <>
 <div className="w-screen h-screen relative mx-60 bg-white">
   <div className="w-[236px] h-[43px] left-[856px] top-[27px] absolute">
-    <div className="left-0 top-0 absolute text-black text-[20px] font-medium hover:underline cursor-pointer" onClick={()=>handleClick("/projects") }>Projects</div>
-    <div className="w-[106px] h-[43px] left-[26px] top-0 absolute text-right text-black text-[20px] font-medium hover:underline cursor-pointer" onClick={()=>handleClick("/blog") }>Blog</div>
-    <div className="w-[71px] h-[43px] left-[165px] top-0 absolute text-right text-black text-[20px] font-medium hover:underline cursor-pointer" onClick={()=>handleClick("/contact") }>Contact</div>
+    <div className="left-0 top-0 absolute text-black text-[20px] font-medium hover:underline cursor-pointer" onClick={()=>handleClick("/projects")}>Projects</div>
+    <div className="w-[106px] h-[43px] left-[26px] top-0 absolute text-right text-black text-[20px] font-medium hover:underline cursor-pointer" onClick={()=>handleClick("/blog")}>Blog</div>
+    <div className="w-[71px] h-[43px] left-[165px] top-0 absolute text-right text-black text-[20px] font-medium hover:underline cursor-pointer" onClick={()=>handleClick("/contact")}>Contact</div>
   </div>
   <div className="w-[156px] h-[54px] left-[235px] top-[160px] absolute text-black text-[44px] font-bold">Blog</div>
   <div className="w-[305px] h-[108px] left-[424px] top-[1123px] absolute">
@@ -23,8 +23,14 @@ return (
       <div className="w-[50px] h-[46px] relative">
       </div>
     </div>
-    <div className="left-[26px] top-[84px] absolute text-black text-[16px] font-normal">Copyright ©2023 All rights reserved</div>
-    <img className="w-[119px] h-[53px] left-[94px] top-0 absolute" src="https://via.placeholder.com/119x53" />
+    <div className="w-[305px] h-[108px] relative">
+<div className="w-[50px] h-[46px] left-0 top-[4px] absolute">
+<div className="w-[50px] h-[46px] left-0 top-0 absolute">
+</div>
+</div>
+<div className="left-[26px] top-[84px] absolute text-black text-[16px] font-normal">Copyright ©2023 All rights reserved</div>
+<img className="w-[119px] h-[53px] left-[94px] top-0 absolute" src="/insta.svg" />
+</div>
   </div>
   <div className="w-[682px] h-[165.27px] left-[235px] top-[269px] absolute">
     <div className="w-[682px] h-[33px] left-0 top-0 absolute text-black text-[30px] font-medium">Blog post 1</div>
