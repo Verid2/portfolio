@@ -12,9 +12,11 @@ export default function Blog(){
 return (
     <>
 <div className="w-screen h-screen relative mx-60 bg-white">
+<div className="left-[152px] top-[27px] absolute text-black text-[20px] font-medium hover:underline cursor-pointer" onClick={()=>handleClick("/")}>Home</div>
   <div className="w-[236px] h-[43px] left-[856px] top-[27px] absolute">
+
     <div className="left-0 top-0 absolute text-black text-[20px] font-medium hover:underline cursor-pointer" onClick={()=>handleClick("/projects")}>Projects</div>
-    <div className="w-[106px] h-[43px] left-[26px] top-0 absolute text-right text-black text-[20px] font-medium hover:underline cursor-pointer" onClick={()=>handleClick("/blog")}>Blog</div>
+    <div className="w-[106px] h-[43px] left-[30px] top-0 absolute text-right text-red-500 text-[20px] font-medium hover:underline cursor-pointer" onClick={()=>handleClick("/blog")}>Blog</div>
     <div className="w-[71px] h-[43px] left-[165px] top-0 absolute text-right text-black text-[20px] font-medium hover:underline cursor-pointer" onClick={()=>handleClick("/contact")}>Contact</div>
   </div>
   <div className="w-[156px] h-[54px] left-[235px] top-[160px] absolute text-black text-[44px] font-bold">Blog</div>
