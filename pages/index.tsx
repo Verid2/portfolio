@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="w-screen h-screen relative mx-60 bg-white">
+      <div className="w-screen h-screen relative mx-80 bg-white">
         <div className="w-[57px] h-[43px] left-[856px] top-[27px] absolute text-black text-[20px] font-medium hover:underline cursor-pointer" onClick={() => handleClick("/projects")}>Projects</div>
         <div className="w-[106px] h-[43px] left-[886px] top-[27px] absolute text-right text-black text-[20px] font-medium hover:underline cursor-pointer" onClick={() => handleClick("/blog")}>Blog</div>
         <div className="w-[71px] h-[43px] left-[1021px] top-[27px] absolute text-right text-black text-[20px] font-medium hover:underline cursor-pointer">Contact</div>
