@@ -22,7 +22,7 @@ export default function Home() {
         <div className="w-[180px] h-[21px] left-[168px] top-[486px] absolute text-white text-[20px] font-medium">Download Resume</div>
         <div className="w-[1152px] h-[396px] left-0 top-[595px] absolute bg-slate-100" />
         <div className="w-[140px] h-[42px] left-[148px] top-[602px] absolute text-black text-[22px] font-normal">Recent posts</div>
-        <div className="w-52 h-5 left-[796px] top-[622px] absolute text-right text-cyan-500 text-[16px] font-medium">View all</div>
+        <div className="w-52 h-5 left-[796px] top-[622px] absolute text-right text-cyan-500 text-[16px] font-medium  hover:underline cursor-pointer" onClick={() => handleClick("/blog")}>View all</div>
         <div className="w-[418px] h-[295px] left-[148px] top-[664px] absolute bg-white rounded" />
         <div className="w-[418px] h-[295px] left-[586px] top-[664px] absolute bg-white rounded" />
         <div className="w-[374px] h-[85px] left-[171px] top-[688px] absolute text-black text-[26px] font-bold">Blog post 1</div>
@@ -31,7 +31,7 @@ export default function Home() {
         <div className="w-[374px] h-[85px] left-[609px] top-[688px] absolute text-black text-[26px] font-bold">Blog post 2</div>
         <div className="w-[164px] h-[21px] left-[609px] top-[790px] absolute text-black text-[18px] font-normal">2023.07.02</div>
         <div className="w-[368px] h-[117px] left-[609px] top-[835px] absolute text-black text-[16px] font-normal">Lorem ipsum</div>
-        <div className="w-[152px] h-[60px] left-[148px] top-[1006px] absolute text-center text-black text-[22px] font-normal">Featured projects</div>
+        <div className="w-[190px] h-[60px] left-[148px] top-[1006px] absolute text-center text-black text-[22px] font-bold">Featured projects</div>
         <img className="w-[244px] h-[177px] left-[146px] top-[1085px] absolute rounded-md" src="/synth.png" />
         <div className="w-[858px] h-[0px] left-[146px] top-[1283px] absolute border border-neutral-200"></div>
         <div className="left-[410px] top-[1077px] absolute text-black text-[30px] font-bold">Python Synthesizer</div>
